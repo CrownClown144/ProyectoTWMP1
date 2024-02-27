@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Nesto\\Documents\\Semestre 8\\TWM\\Proyectos\\Proyecto.TecNM.P1\\Proyecto.TecNM.P1.Core\\Proyecto.TecNM.P1.Core.csproj": {}
+    "C:\\Users\\Torre\\OneDrive\\Documentos\\GitHub\\ProyectoTWMP1\\Proyecto.TecNM.P1.Core\\Proyecto.TecNM.P1.Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Nesto\\Documents\\Semestre 8\\TWM\\Proyectos\\Proyecto.TecNM.P1\\Proyecto.TecNM.P1.Core\\Proyecto.TecNM.P1.Core.csproj": {
+    "C:\\Users\\Torre\\OneDrive\\Documentos\\GitHub\\ProyectoTWMP1\\Proyecto.TecNM.P1.Core\\Proyecto.TecNM.P1.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nesto\\Documents\\Semestre 8\\TWM\\Proyectos\\Proyecto.TecNM.P1\\Proyecto.TecNM.P1.Core\\Proyecto.TecNM.P1.Core.csproj",
+        "projectUniqueName": "C:\\Users\\Torre\\OneDrive\\Documentos\\GitHub\\ProyectoTWMP1\\Proyecto.TecNM.P1.Core\\Proyecto.TecNM.P1.Core.csproj",
         "projectName": "Proyecto.TecNM.P1.Core",
-        "projectPath": "C:\\Users\\Nesto\\Documents\\Semestre 8\\TWM\\Proyectos\\Proyecto.TecNM.P1\\Proyecto.TecNM.P1.Core\\Proyecto.TecNM.P1.Core.csproj",
-        "packagesPath": "C:\\Users\\Nesto\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nesto\\Documents\\Semestre 8\\TWM\\Proyectos\\Proyecto.TecNM.P1\\Proyecto.TecNM.P1.Core\\obj\\",
+        "projectPath": "C:\\Users\\Torre\\OneDrive\\Documentos\\GitHub\\ProyectoTWMP1\\Proyecto.TecNM.P1.Core\\Proyecto.TecNM.P1.Core.csproj",
+        "packagesPath": "C:\\Users\\Torre\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Torre\\OneDrive\\Documentos\\GitHub\\ProyectoTWMP1\\Proyecto.TecNM.P1.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Nesto\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Torre\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -53,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.405\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\7.0.405\\RuntimeIdentifierGraph.json"
         }
       }
     }
