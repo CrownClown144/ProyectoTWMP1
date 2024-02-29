@@ -27,19 +27,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Torre\\.nuget\\packages\\": {}
+    "C:\\Users\\Nesto\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Torre\\OneDrive\\Documentos\\GitHub\\ProyectoTWMP1\\Proyecto.TecNM.P1.App\\Proyecto.TecNM.P1.App.csproj",
+      "projectUniqueName": "C:\\Users\\Nesto\\Documents\\Semestre 8\\TWM\\Proyectos\\ProyectoTWMP1\\Proyecto.TecNM.P1.App\\Proyecto.TecNM.P1.App.csproj",
       "projectName": "Proyecto.TecNM.P1.App",
-      "projectPath": "C:\\Users\\Torre\\OneDrive\\Documentos\\GitHub\\ProyectoTWMP1\\Proyecto.TecNM.P1.App\\Proyecto.TecNM.P1.App.csproj",
-      "packagesPath": "C:\\Users\\Torre\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Torre\\OneDrive\\Documentos\\GitHub\\ProyectoTWMP1\\Proyecto.TecNM.P1.App\\obj\\",
+      "projectPath": "C:\\Users\\Nesto\\Documents\\Semestre 8\\TWM\\Proyectos\\ProyectoTWMP1\\Proyecto.TecNM.P1.App\\Proyecto.TecNM.P1.App.csproj",
+      "packagesPath": "C:\\Users\\Nesto\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Nesto\\Documents\\Semestre 8\\TWM\\Proyectos\\ProyectoTWMP1\\Proyecto.TecNM.P1.App\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Torre\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Nesto\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -51,8 +51,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\Torre\\OneDrive\\Documentos\\GitHub\\ProyectoTWMP1\\Proyecto.TecNM.P1.Core\\Proyecto.TecNM.P1.Core.csproj": {
-              "projectPath": "C:\\Users\\Torre\\OneDrive\\Documentos\\GitHub\\ProyectoTWMP1\\Proyecto.TecNM.P1.Core\\Proyecto.TecNM.P1.Core.csproj"
+            "C:\\Users\\Nesto\\Documents\\Semestre 8\\TWM\\Proyectos\\ProyectoTWMP1\\Proyecto.TecNM.P1.Core\\Proyecto.TecNM.P1.Core.csproj": {
+              "projectPath": "C:\\Users\\Nesto\\Documents\\Semestre 8\\TWM\\Proyectos\\ProyectoTWMP1\\Proyecto.TecNM.P1.Core\\Proyecto.TecNM.P1.Core.csproj"
             }
           }
         }
@@ -82,7 +82,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\7.0.405\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.405\\RuntimeIdentifierGraph.json"
       }
     }
   }
