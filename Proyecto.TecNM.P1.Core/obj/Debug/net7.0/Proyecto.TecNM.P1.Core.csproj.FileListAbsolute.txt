@@ -1,0 +1,11 @@
+C:\Users\Nesto\Documents\Semestre 8\TWM\Proyectos\ProyectoTWMP1\Proyecto.TecNM.P1.Core\bin\Debug\net7.0\Proyecto.TecNM.P1.Core.deps.json
+C:\Users\Nesto\Documents\Semestre 8\TWM\Proyectos\ProyectoTWMP1\Proyecto.TecNM.P1.Core\bin\Debug\net7.0\Proyecto.TecNM.P1.Core.dll
+C:\Users\Nesto\Documents\Semestre 8\TWM\Proyectos\ProyectoTWMP1\Proyecto.TecNM.P1.Core\bin\Debug\net7.0\Proyecto.TecNM.P1.Core.pdb
+C:\Users\Nesto\Documents\Semestre 8\TWM\Proyectos\ProyectoTWMP1\Proyecto.TecNM.P1.Core\obj\Debug\net7.0\Proyecto.TecNM.P1.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nesto\Documents\Semestre 8\TWM\Proyectos\ProyectoTWMP1\Proyecto.TecNM.P1.Core\obj\Debug\net7.0\Proyecto.TecNM.P1.Core.AssemblyInfoInputs.cache
+C:\Users\Nesto\Documents\Semestre 8\TWM\Proyectos\ProyectoTWMP1\Proyecto.TecNM.P1.Core\obj\Debug\net7.0\Proyecto.TecNM.P1.Core.AssemblyInfo.cs
+C:\Users\Nesto\Documents\Semestre 8\TWM\Proyectos\ProyectoTWMP1\Proyecto.TecNM.P1.Core\obj\Debug\net7.0\Proyecto.TecNM.P1.Core.csproj.CoreCompileInputs.cache
+C:\Users\Nesto\Documents\Semestre 8\TWM\Proyectos\ProyectoTWMP1\Proyecto.TecNM.P1.Core\obj\Debug\net7.0\Proyecto.TecNM.P1.Core.dll
+C:\Users\Nesto\Documents\Semestre 8\TWM\Proyectos\ProyectoTWMP1\Proyecto.TecNM.P1.Core\obj\Debug\net7.0\refint\Proyecto.TecNM.P1.Core.dll
+C:\Users\Nesto\Documents\Semestre 8\TWM\Proyectos\ProyectoTWMP1\Proyecto.TecNM.P1.Core\obj\Debug\net7.0\Proyecto.TecNM.P1.Core.pdb
+C:\Users\Nesto\Documents\Semestre 8\TWM\Proyectos\ProyectoTWMP1\Proyecto.TecNM.P1.Core\obj\Debug\net7.0\ref\Proyecto.TecNM.P1.Core.dll

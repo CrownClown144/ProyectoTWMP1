@@ -5,8 +5,9 @@ namespace Proyecto.TecNM.P1.Core.Services;
 
 public class EstadoFinancieroService: IEstadoFinancieroService
 {
-    private static float metaMensual = 0.0f;
+    private static float presupuestoMensual = 0.0f;
     private static float metaFinanciera = 0.0f;
+    private static float estadoPresupuesto = 0.0f;
     public static List<Transaccion> transacciones = new List<Transaccion>();
 
     public void obtenerEstadoFinanciero()
@@ -40,10 +41,23 @@ public class EstadoFinancieroService: IEstadoFinancieroService
         }
         Console.WriteLine("");
     }
-
-    public void establecerMetaMensual(float meta)
+    
+    public void agregarIngreso(float ingreso){
+        estadoPresupuesto += ingreso;
+    }
+    
+    public void eliminarIngreso()
     {
-        metaMensual = meta;
+        estadoPresupuesto = 0.0f;
+    }
+
+    public float obtenerMedidorDeIngreso(){
+        return estadoPresupuesto;
+    }
+    
+    public void establecerPresupuestoMensual(float meta)
+    {
+        presupuestoMensual = meta;
     }
 
     public void establecerMetaFinanciera(float meta)
@@ -51,9 +65,9 @@ public class EstadoFinancieroService: IEstadoFinancieroService
         metaFinanciera = meta;
     }
 
-    public float obtenerMetaMensual()
+    public float obtenerPresupuestoMensual()
     {
-        return metaMensual;
+        return presupuestoMensual;
     } 
     
     public float obtenerMetaFinanciera()
@@ -61,33 +75,20 @@ public class EstadoFinancieroService: IEstadoFinancieroService
         return metaFinanciera;
     } 
     
-    public void obtenerEstadoMetaMensual()
+    public void obtenerEstadoPresupuestoMensual()
     {
-        var saldo = 0.0f;
-        foreach (var transaccion in transacciones)
-        {
-            if (transaccion.Tipo.Equals("Ingreso"))
-            {
-                saldo += transaccion.Monto;
-            }
-            else
-            {
-                saldo -= transaccion.Monto;
-            }
-        }
-
-        var porcentajeMensual = saldo / metaMensual * 100;
+        var porcentajeMensual = estadoPresupuesto / presupuestoMensual * 100;
         
         Console.WriteLine("");
-        Console.WriteLine("================ Progreso de meta mensual =======================");
+        Console.WriteLine("================ Progreso de tu presupuesto mensual =======================");
         if (porcentajeMensual < 100)
         {
-            Console.WriteLine($"Haz recaudado un total de ${saldo} de ${metaMensual}");
+            Console.WriteLine($"Haz utilizado un total de ${estadoPresupuesto} de ${presupuestoMensual}");
             Console.WriteLine($"Total alcanzado: {porcentajeMensual}%");
         }
         else
         {
-            Console.WriteLine($"Haz logrado tu meta Mensual con un total de ${saldo} de ${metaMensual}!");
+            Console.WriteLine($"Haz sobrepasado tu presupuesto Mensual con un total de ${estadoPresupuesto} de ${presupuestoMensual}!");
             Console.WriteLine($"Total alcanzado: {porcentajeMensual}%");
         }
         Console.WriteLine("");
@@ -143,6 +144,7 @@ public class EstadoFinancieroService: IEstadoFinancieroService
 
         return saldo;
     }
+    
     public EstadoFinanciero processEstadoFinanciero(Transaccion transaccion)
     {
         var estado = new EstadoFinanciero();
