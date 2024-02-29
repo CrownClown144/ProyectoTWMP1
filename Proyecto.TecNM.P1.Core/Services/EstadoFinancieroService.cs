@@ -88,7 +88,8 @@ public class EstadoFinancieroService: IEstadoFinancieroService
         }
         else
         {
-            Console.WriteLine($"Haz sobrepasado tu presupuesto Mensual con un total de ${estadoPresupuesto} de ${presupuestoMensual}!");
+            Console.WriteLine($"Haz sobrepasado tu presupuesto Mensual con un total de ${estadoPresupuesto} de" +
+                              $"S ${presupuestoMensual}!");
             Console.WriteLine($"Total alcanzado: {porcentajeMensual}%");
         }
         Console.WriteLine("");
@@ -96,18 +97,7 @@ public class EstadoFinancieroService: IEstadoFinancieroService
     
     public void obtenerEstadoMetaFinanciera()
     {
-        var saldo = 0.0f;
-        foreach (var transaccion in transacciones)
-        {
-            if (transaccion.Tipo.Equals("Ingreso"))
-            {
-                saldo += transaccion.Monto;
-            }
-            else
-            {
-                saldo -= transaccion.Monto;
-            }
-        }
+        var saldo = obtenerSaldo();
 
         var porcentajeFinanciera = saldo / metaFinanciera * 100;
         
@@ -151,13 +141,17 @@ public class EstadoFinancieroService: IEstadoFinancieroService
         var saldoAux = obtenerSaldo();
         if (transaccion.Tipo.Equals("Retiro") && transaccion.Monto > saldoAux)
         {
+            Console.WriteLine("");
             Console.WriteLine("No tienes fondos suficientes!");
+            Console.WriteLine("");
         }
         else
         {
             transacciones.Add(new Transaccion
             {
-                Monto = transaccion.Monto, Categoria = transaccion.Categoria, Concepto = transaccion.Concepto,
+                Monto = transaccion.Monto, 
+                Categoria = transaccion.Categoria, 
+                Concepto = transaccion.Concepto,
                 Tipo = transaccion.Tipo
             });
             if (transaccion.Tipo.Equals("Ingreso"))
@@ -170,7 +164,7 @@ public class EstadoFinancieroService: IEstadoFinancieroService
                 estado.Saldo -= transaccion.Monto;
                 estado.Gastos += transaccion.Monto;
             }
-            
+            Console.WriteLine("");
             Console.WriteLine("Transaccion registrada correctamente!");
             Console.WriteLine("");
             return estado;
